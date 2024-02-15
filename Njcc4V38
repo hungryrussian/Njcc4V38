@@ -4,3 +4,4 @@ notepad.exe
 [reflection.assembly]::loadwithpartialname("System.Windows.Forms") | out-null; $notify = new-object system.windows.forms.notifyicon; $notify.icon = [System.Drawing.SystemIcons]::Warning; $notify.visible = $true; $notify.showballoontip(15,"Error installing device","Something went wrong. Please check Windows Update for a solution.",[system.windows.forms.tooltipicon]::Warning);
 [Microsoft.PowerShell.PSConsoleReadLine]::ClearHistory()
 exit
+exit
